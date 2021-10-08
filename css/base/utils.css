@@ -1,0 +1,33 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: var(--ubuntu-font);
+    font-size: 42px;
+    font-weight: var(--bold);
+    border-bottom: 7px solid var(--cyan);
+    color: var(--black-grey);
+    padding-bottom: 7px;
+}

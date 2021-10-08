@@ -1,0 +1,426 @@
+.main-content {
+    margin-top: 100px;
+    padding: 40px 60px;
+}
+
+.presentation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation-text {
+    font-family: var(--ubuntu-font);
+    color: var(--black-grey);
+}
+
+.presentation-text h1 {
+    font-size: 54px;
+    padding: 20px 0;
+}
+
+.presentation-text p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.presentation-image .photo {
+    width: 375px;
+    height: 375px;
+    background-image: url(/resources/png/photo.jpg);
+    background-size: cover;
+    box-shadow: rgb(0, 0, .5) 0 0 20px;
+    border-radius: 100%;
+}
+
+.presentation-image .photo:hover {
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+.main-social-media {
+    margin-top: 100px;
+}
+
+.main-social-media .social-media a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main-social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-social-media .social-media a {
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.main-social-media .social-media a:nth-child(1) {
+    background-image: url(/resources/png/facebook-circular-logo.png);
+}
+
+.main-social-media .social-media a:nth-child(2) {
+    background-image: url(/resources/png/whatsapp.png);
+}
+
+.main-social-media .social-media a:nth-child(3) {
+    background-image: url(/resources/png/telegram.png);
+}
+
+.main-social-media .social-media a:hover {
+    background-color: var(--cyan);
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+.main-social-media span {
+    font-family: var(--ubuntu-font);
+    font-size: 22px;
+    font-weight: var(--light);
+    color: var(--black-grey);
+}
+
+.habilities-section {
+    margin-top: 200px;
+    font-family: var(--ubuntu-font);
+    color: var(--black-grey);
+}
+
+.articles-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.habilities-section h2 {
+    width: 365px;
+}
+
+.articles-content article {
+    margin-top: 75px;
+    width: 300px;
+    height: 350px;
+    font-family: var(--ubuntu-font);
+}
+
+.articles-content article img {
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+}
+
+.articles-content article h3 {
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: var(--bold);
+}
+
+.articles-content article p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.skills-content {
+    margin-top: 125px;
+    font-family: var(--ubuntu-font);
+}
+
+.skills-content h2 {
+    width: 240px;
+}
+
+.skills-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skills-list li {
+    font-size: 18px;
+    color: var(--black-grey);
+    font-weight: var(--medium);
+}
+
+.skills-list li:hover {
+    color: var(--cyan);
+    transform: translateY(-10px);
+    transition: .4s;
+}
+
+.skills-list li::before {
+    content: "";
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.skills-list li:nth-child(1)::before {
+    background-image: url(/resources/png/premiere\ \(1\).png);
+}
+
+.skills-list li:nth-child(2)::before {
+    background-image: url(/resources/png/after-effects.png);
+}
+
+.skills-list li:nth-child(3)::before {
+    background-image: url(/resources/png/media-encoder.png);
+}
+
+.skills-list li:nth-child(4)::before {
+    background-image: url(/resources/png/vegas-pro.png)
+}
+
+.projects-wrapper {
+    margin-top: 150px;
+}
+
+.projects-wrapper h2 {
+    width: 210px;
+    margin-bottom: 100px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video-wrapper:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+
+.video-content {
+    padding: 0 20px;
+    height: 425px;
+    background-color: var(--black-grey);
+    border-radius: 30px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, .6) -30px -15px 20px;
+}
+
+.video-2 .video-content {
+    order: 1;
+    box-shadow: rgba(0, 0, 0, .6) 30px -15px 20px;
+}
+
+.video-4 .video-content {
+    order: 1;
+    box-shadow: rgba(0, 0, 0, .6) 30px -15px 20px;
+}
+
+
+.video-content span {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translate(50%);
+    border-radius: 40px;
+    background-color: var(--grey);
+}
+
+.video-text {
+    align-self: center;
+    width: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    font-family: var(--ubuntu-font);
+}
+
+.video-text h3 {
+    font-size: 28px;
+    font-weight: var(--bold);
+    color: var(--black-grey);
+}
+
+.video-text p {
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.video-text span {
+    font-size: 18px;
+    color: var(--cyan);
+    font-weight: var(--bold);
+}
+
+.technologies-content {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+}
+
+.technologies-content li {
+    font-size: 16px;
+    font-weight: var(--light);
+    color: var(--black-grey);
+}
+
+.technologies-content li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.technologies-content li:last-child {
+    margin-top: 15px;
+}
+
+.technologies-content li::before {
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.technologies-content li:nth-child(1)::before {
+    background-image: url(/resources/png/premiere\ \(1\).png);
+}
+
+.technologies-content li:nth-child(2)::before {
+    background-image: url(/resources/png/after-effects.png);
+}
+
+.technologies-content li:nth-child(3)::before {
+    background-image: url(/resources/png/media-encoder.png);
+}
+
+.technologies-content li:hover {
+    transform: translateY(-10px);
+    transition: .4s;
+    color: var(--cyan);
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.interests-wrapper {
+    font-family: var(--ubuntu-font);
+}
+
+.interests-wrapper h2 {
+    width: 380px;
+}
+
+.interests-list {
+    margin-top: 50px;
+}
+
+.interests-list li {
+    font-size: 22px;
+    font-weight: var(--light);
+    line-height: 1.7;
+}
+
+.interests-list li::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--cyan);
+    margin-right: 10px;
+}
+
+.contact-content {
+    background-color: var(--black-grey);
+    width: 600px;
+    font-family: var(--ubuntu-font);
+    padding: 20px 0;
+}
+
+.contact-content h2 {
+    color: var(--light-white);
+    width: 310px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+    line-height: 1.7;
+    color: var(--light-white);
+    font-weight: var(--light);
+}
+
+.contact-content p:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.contact-social-media  {
+    display: flex;
+    padding: 25px 0;
+    width: 250px;
+}
+
+.contact-social-media a {
+    width: 42px;
+    height: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.contact-social-media a:not(:last-child) {
+    margin-right: 40px;
+}
+
+.contact-social-media a:nth-child(1) {
+    background-image: url(/resources/png/facebook-circular-logo-white.png);
+}
+
+.contact-social-media a:nth-child(2) {
+    background-image: url(/resources/png/whatsapp-white.png);
+}
+
+.contact-social-media a:nth-child(3) {
+    background-image: url(/resources/png/telegram-white.png);
+}
+
+.contact-social-media a:hover {
+    transform: scale(1.5);
+    transition: .5s;
+    background-color: var(--cyan);
+}
+
+.contact-content > a {
+    width: 62px;
+    height: 48px;
+    background-image: url(/resources/png/mail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -7px;
+    border-radius: 7px;
+}
+
+.contact-content > a:hover {
+    transform: scale(1.2);
+    transition: .5s;
+    background-color: var(--cyan);
+}
+

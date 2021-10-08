@@ -1,0 +1,35 @@
+/* Main header */
+@import "/css/components/header/main-header.css";
+
+/* Main content */
+@import "/css/components/main/main-content.css";
+
+/* Main footer */
+@import "/css/components/footer/main-footer.css";
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Responsive */
+@import "/css/base/responsive.css";
+
+/* Reset */
+@import "/css/base/reset.min.css";
+
+/* Variables */
+@import "/css/base/variables.css";
+
+/* Utils */
+@import "/css/base/utils.css";
+
+body {
+    background-color: var(--light-white);
+}
+
+#root {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+}

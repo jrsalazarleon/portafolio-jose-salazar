@@ -1,0 +1,54 @@
+.main-header {
+    padding: 20px 60px;
+    font-family: var(--ubuntu-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header > a {
+    font-size: 42px;
+    font-family: var(--ubuntu-font);
+    font-weight: var(--bold);
+    color: var(--light-white);
+    background-color: var(--black-grey);
+    text-decoration: none;
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+}
+
+.main-header > a:hover {
+    color: var(--cyan);
+    background-color: var(--white);
+    border: 1px solid var(--cyan);
+    transition: .5s;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+.menu li a {
+    font-family: var(--ubuntu-font);
+    font-weight: var(--medium);
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--black-grey);
+}
+
+.menu li a:hover {
+    color: var(--cyan);
+    padding-bottom: 3px;
+    border-bottom: 3px solid var(--cyan);
+    transition: .4s;
+}
+
+.menu-button {
+    display: none;
+}

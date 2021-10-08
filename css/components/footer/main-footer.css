@@ -1,0 +1,18 @@
+.main-footer {
+    margin-top: 100px;
+    padding: 70px 0;
+    background-color: var(--black-grey);
+}
+
+.main-footer span {
+    font-family: var(--ubuntu-font);
+    color: var(--light-white);
+    font-size: 36px;
+    font-weight: var(--bold);
+}
+
+.main-footer span:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    color: var(--cyan);
+}

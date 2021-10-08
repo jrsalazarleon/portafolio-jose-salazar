@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    --black-grey: #212121;
+    --grey: #C5C5C5;
+    --cyan: rgb(38,192,156);
+    --white: hsl(0, 0%, 100%);
+    --light-white: rgb(242, 244, 244 );
+    /* Fonts */
+    --ubuntu-font: 'Ubuntu', sans-serif;
+
+    /* Weights */
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+}
